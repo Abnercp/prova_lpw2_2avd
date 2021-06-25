@@ -21,8 +21,23 @@ export const Container = styled.div`
             padding: 8px;
         }
     }
+    
+    table {
+        margin-top: 30px;
+        width: 100%;
+        height: 30px;
+        border: 1px solid
+    }
 
+    th {
+        text-align: center;
+        border: 1px solid;
+    }
+
+    td {
+        text-align: center;
+        border: 1px lightgray solid;
+    }
+`
   
 
-
-`
